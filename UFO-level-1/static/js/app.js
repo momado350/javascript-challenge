@@ -42,6 +42,8 @@ function handleClick(){
 }
 
 // select rows that match the date entered
+// not sure where we covered d3.selectALL but I got this from:
+// this link: https://stackoverflow.com/questions/4067469/selecting-all-text-in-html-text-input-when-clicked.
 
 d3.selectAll("#filter-btn").on("click", handleClick);
 sightingSearch( ufoData);
