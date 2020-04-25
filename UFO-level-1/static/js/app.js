@@ -31,7 +31,7 @@ function handleClick(){
     
     var filterData =  ufoData;
 
-    // use conditional (if) to filter the data by (Date, city, state, country, shape)
+    // use conditional (if) to filter the data by (Date)
     if (date){
         filterData = filterData.filter((row) => row.datetime === date);
         }
